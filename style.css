@@ -1,12 +1,13 @@
 body{
-    background-image: url("bg1.jpg");
+    background-image: url("./img/bg1.jpg");
 }
 img{
     width: 300pt;
+    object-fit: cover;
 }
 .atas1{
     background-color:  #faf3f2;
-    width: 100%
+    width: auto;
 }
 table, th, td{
     border: 1px solid;
@@ -19,6 +20,6 @@ table, th, td{
 .atas3{
     background-color: #faf3f2;
 }
-form{
+/* form{
 text-align: center;
-}
+} */

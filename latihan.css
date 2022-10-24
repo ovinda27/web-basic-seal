@@ -1,8 +1,94 @@
 body{
     background-color: #cad7ed;
 }
-img{
-    margin: 25px 20px 25px 20px;
-    /* width: 50px; */
-    height: 100px;
+/* .button {
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 25px;
+    margin: auto;
+}
+.navi{
+    position: relative;
+    width: 100%;
+    background: #ffff;
+    text-align: center;
+    padding-left: 40%;
+}
+nav ul {
+    margin :auto;
+}
+nav  ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    padding-left: 2%;
+}
+nav ul li a{
+    font-family: Chango;
+    text-decoration: none;
+    color:   black;
+    font-weight: bold;
+    text-align: center;
+}
+nav ul li a:hover{
+    color:#b2d6ed;
+} */
+
+
+.navbar a{
+    font-family: Chango;
+    text-decoration: none;
+    color:   black;
+    font-weight: bold;
+    text-align: center;
+}
+.navbar a:hover{
+    color:#b2d6ed;
+}
+.container{
+    width: 400px;
+    margin:auto;
+}
+.jumbotron {
+    padding: 5rem 3rem;
+    background-image: url("./img/bg1.jpg");
+    background-size: fill;
+    background-attachment: fixed;
+    height: 570px;
+    text-align: center;
+}
+
+.jumbotron .display-4 {
+    font-family: Chango;
+    color: black;
+    font-size: 25px;
+    margin-top: 160px;
+}
+
+.jumbotron .lead {
+    font-family: Marck Script;
+    color: white;
+    font-size: 20px;
+}
+
+h2{
+    font-family: Chango;
+    text-align: center;
+    padding-top: 1cm;
+    margin-bottom: 5;
+}
+.foto {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+.text-about{
+    text-indent: 10px;
+    text-align: justify;
+    color: black;
+    font-family: Chango;
+}
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
 }
